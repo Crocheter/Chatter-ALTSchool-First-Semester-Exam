@@ -254,14 +254,37 @@ nav a {
 
 footer {
   display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  text-align: left;
+  align-items: flex-start;
 }
 
 footer h1 {
   color: #543ee0;
   font-size: 44px;
   font-weight: 700;
+  text-align: left;
 }
 
 .footer-items {
   display: flex;
+  gap: 120px;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.footer-item h6 {
+  font-size: 16px;
+}
+
+.footer-item a {
+  text-decoration: none;
+  color: #111111;
 }
